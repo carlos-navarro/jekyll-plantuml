@@ -4,3 +4,5 @@ group :jekyll_plugins do
   gem "jekyll-plantuml", "~> 1.3"
   gem "just-the-docs", "~> 0.3.3"
 end
+
+gem "webrick", "~> 1.7"

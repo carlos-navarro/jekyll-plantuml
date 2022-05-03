@@ -1,0 +1,28 @@
+@startuml
+
+
+!include puml/bcrm_template.puml
+
+addProjectId("[AXA Social Media] Khoros")
+
+addEnhancedProduct("A.4.1")
+addNewProduct("A.4.2")
+addRetiredProduct("A.4.3")
+
+addEnhancedCapability("B.2.2")
+addNewCapability("B.2.3")
+addEnhancedCapability("B.5.1")
+addOutsourcedCapability("B.5.2")
+addRetiredCapability("B.7.1")
+addRetiredCapability("B.7.2")
+
+addSupportedPrinciple("C.4.2")
+addNotSupportedPrinciple("C.4.3")
+
+addImplementedService("D.4.2")
+addUsedService("D.4.3")
+
+addCapabilityLegend()
+
+
+@enduml

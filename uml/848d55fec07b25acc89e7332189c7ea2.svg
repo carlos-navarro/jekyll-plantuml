@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1644px" preserveAspectRatio="none" style="width:856px;height:1644px;background:#FFFFFF;" version="1.1" viewBox="0 0 856 1644" width="856px" zoomAndPan="magnify"><defs/><g><rect height="26.4883" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="341" x="250.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="331" x="255.5" y="23.5352">Internet Banking System - Deployment - Live</text><!--MD5=[a100d8e515b2a873bfd42dd0588bf2f3]
+cluster Live.Customersmobiledevice--><g id="cluster_Live.Customersmobiledevice"><rect fill="#FFFFFF" height="202" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="244" x="254" y="103.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="210" x="271" y="120.957">Customer's mobile device</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="130" x="311" y="135.9336">[Apple iOS or Android]</text></g><!--MD5=[c4e13a5283affaa545882700c7ae3859]
+cluster Live.Customerscomputer--><g id="cluster_Live.Customerscomputer"><rect fill="#FFFFFF" height="285" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="298" x="529" y="44.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="176" x="590" y="61.957">Customer's computer</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="211" x="572.5" y="76.9336">[Microsoft Windows or Apple macOS]</text></g><!--MD5=[8cb024b3e2e905c2c51d84c5c81af789]
+cluster Live.Customerscomputer.WebBrowser--><g id="cluster_Live.Customerscomputer.WebBrowser"><rect fill="#FFFFFF" height="202" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="250" x="553" y="103.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="105" x="625.5" y="120.957">Web Browser</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="193" x="581.5" y="135.9336">[Chrome, Firefox, Safari, or Edge]</text></g><!--MD5=[5cbf40f1b528d09a373ac2cba03b071c]
+cluster Live.BigBankplc--><g id="cluster_Live.BigBankplc"><rect fill="#FFFFFF" height="1128" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="843" x="7" y="405.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="101" x="378" y="422.957">Big Bank plc</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="148" x="354.5" y="437.9336">[Big Bank plc data center]</text></g><!--MD5=[68731cf91d83ed4110e1374f30959ca8]
+cluster Live.BigBankplc.bigbankapi--><g id="cluster_Live.BigBankplc.bigbankapi"><rect fill="#FFFFFF" height="269" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="280" x="242" y="464.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="301.5" y="481.957">bigbank-api*** (x8)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="325.5" y="496.9336">[Ubuntu 16.04 LTS]</text></g><!--MD5=[ac26a1b1fccdfe44f6adee7a79ad68ec]
+cluster Live.BigBankplc.bigbankapi.ApacheTomcat--><g id="cluster_Live.BigBankplc.bigbankapi.ApacheTomcat"><rect fill="#FFFFFF" height="186" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="232" x="266" y="523.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="127" x="318.5" y="540.957">Apache Tomcat</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="321.5" y="555.9336">[Apache Tomcat 8.x]</text></g><!--MD5=[d920708e97391c3549aaeb5edfcd3b0a]
+cluster Live.BigBankplc.bigbankdb01--><g id="cluster_Live.BigBankplc.bigbankdb01"><rect fill="#FFFFFF" height="326" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="337" x="31" y="809.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="138.5" y="826.957">bigbank-db01</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="143" y="841.9336">[Ubuntu 16.04 LTS]</text></g><!--MD5=[c69313ee2edebc9af502232c09e72854]
+cluster Live.BigBankplc.bigbankdb01.OraclePrimary--><g id="cluster_Live.BigBankplc.bigbankdb01.OraclePrimary"><rect fill="#FFFFFF" height="227" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="273" x="63" y="876.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="135" x="132" y="893.957">Oracle - Primary</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="164" y="908.9336">[Oracle 12c]</text></g><!--MD5=[bad72b334aed7db7c2e5eaf23b844252]
+cluster Live.BigBankplc.bigbankdb02--><g id="cluster_Live.BigBankplc.bigbankdb02"><rect fill="#FFFFFF" height="326" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="337" x="189" y="1183.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="296.5" y="1200.957">bigbank-db02</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="301" y="1215.9336">[Ubuntu 16.04 LTS]</text></g><!--MD5=[716b39da62f32bf2acb108637f8adea9]
+cluster Live.BigBankplc.bigbankdb02.OracleSecondary--><g id="cluster_Live.BigBankplc.bigbankdb02.OracleSecondary"><rect fill="#FFFFFF" height="227" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="273" x="221" y="1250.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="156" x="279.5" y="1267.957">Oracle - Secondary</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="322" y="1282.9336">[Oracle 12c]</text></g><!--MD5=[cbd5b320f585a05e7ecfe8c39a373225]
+cluster Live.BigBankplc.bigbankprod001--><g id="cluster_Live.BigBankplc.bigbankprod001"><rect fill="#FFFFFF" height="193" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="242" x="584" y="900.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="150" x="630" y="917.957">bigbank-prod001</text></g><!--MD5=[0581740d607c258f3760b3fc3abf08af]
+cluster Live.BigBankplc.bigbankweb--><g id="cluster_Live.BigBankplc.bigbankweb"><rect fill="#FFFFFF" height="269" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="280" x="546" y="464.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="170" x="601" y="481.957">bigbank-web*** (x4)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="629.5" y="496.9336">[Ubuntu 16.04 LTS]</text></g><!--MD5=[c337bf75345248ab2e97bb20605c9644]
+cluster Live.BigBankplc.bigbankweb.ApacheTomcat--><g id="cluster_Live.BigBankplc.bigbankweb.ApacheTomcat"><rect fill="#FFFFFF" height="186" rx="2.5" ry="2.5" style="stroke:#A2A2A2;stroke-width:1.0;" width="232" x="570" y="523.4883"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="127" x="622.5" y="540.957">Apache Tomcat</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="625.5" y="555.9336">[Apache Tomcat 8.x]</text></g><!--MD5=[a28eee1b018eb45c1b7551249d0717af]
+entity Live.Customersmobiledevice.MobileApp_1--><g id="elem_Live.Customersmobiledevice.MobileApp_1"><rect fill="#438DD5" height="135.418" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="212" x="270" y="154.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="94" x="329" y="179.957">Mobile App</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="56" x="348" y="194.9336">[Xamarin]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="374" y="211"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="280" y="227.4883">Provides a limited subset of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="304" y="243.9766">the Internet banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="285" y="260.4648">functionality to customers</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="297.5" y="276.9531">via their mobile device.</text></g><!--MD5=[ef83100b79cefb44e727822ccc435a86]
+entity Live.Customerscomputer.WebBrowser.SinglePageApplication_1--><g id="elem_Live.Customerscomputer.WebBrowser.SinglePageApplication_1"><rect fill="#438DD5" height="135.418" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="218" x="569" y="154.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="198" x="579" y="179.957">Single-Page Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="138" x="609" y="194.9336">[JavaScript and Angular]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="676" y="211"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="586" y="227.4883">Provides all of the Internet</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="594.5" y="243.9766">banking functionality to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="595" y="260.4648">customers via their web</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="648" y="276.9531">browser.</text></g><!--MD5=[f0a3283f3522849799d22d8875fa75aa]
+entity Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1--><g id="elem_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1"><rect fill="#438DD5" height="118.9297" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="200" x="282" y="574.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="126" x="319" y="599.957">API Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="128" x="318" y="614.9336">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="380" y="631"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="292" y="647.4883">Provides Internet banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="320" y="663.9766">functionality via a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="325" y="680.4648">JSON/HTTPS API.</text></g><!--MD5=[db8d84a6e80404331090de8d8ef02269]
+entity Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1--><g id="elem_Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1"><path d="M106,945.4883 C106,935.4883 209,935.4883 209,935.4883 C209,935.4883 312,935.4883 312,945.4883 L312,1069.9063 C312,1079.9063 209,1079.9063 209,1079.9063 C209,1079.9063 106,1079.9063 106,1069.9063 L106,945.4883 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M106,945.4883 C106,955.4883 209,955.4883 209,955.4883 C209,955.4883 312,955.4883 312,945.4883 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="171.5" y="974.957">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="152" x="133" y="989.9336">[Oracle Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="207" y="1006"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="126.5" y="1022.4883">Stores user registration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="137.5" y="1038.9766">information, hashed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="116" y="1055.4648">authentication credentials,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="154.5" y="1071.9531">access logs, etc.</text></g><!--MD5=[e00b4911373b46a85732dcef882d5a37]
+entity Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1--><g id="elem_Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1"><path d="M264,1319.4883 C264,1309.4883 367,1309.4883 367,1309.4883 C367,1309.4883 470,1309.4883 470,1319.4883 L470,1443.9063 C470,1453.9063 367,1453.9063 367,1453.9063 C367,1453.9063 264,1453.9063 264,1443.9063 L264,1319.4883 " fill="#438DD5" style="stroke:#3C7FC0;stroke-width:0.5;"/><path d="M264,1319.4883 C264,1329.4883 367,1329.4883 367,1329.4883 C367,1329.4883 470,1329.4883 470,1319.4883 " fill="none" style="stroke:#3C7FC0;stroke-width:0.5;"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="329.5" y="1348.957">Database</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="152" x="291" y="1363.9336">[Oracle Database Schema]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="365" y="1380"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="284.5" y="1396.4883">Stores user registration</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="295.5" y="1412.9766">information, hashed</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="274" y="1429.4648">authentication credentials,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="312.5" y="1445.9531">access logs, etc.</text></g><!--MD5=[c5744c708fe1f47bc7959d6d02d83e8b]
+entity Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1--><g id="elem_Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1"><rect fill="#1168BD" height="140.1289" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="209" x="600.5" y="937.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="160" x="622.5" y="962.957">Mainframe Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="58" x="676" y="981.8008">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="703" y="998.7109"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="634.5" y="1015.1992">Stores all of the core</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="610.5" y="1031.6875">banking information about</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="631" y="1048.1758">customers, accounts,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="647" y="1064.6641">transactions, etc.</text></g><!--MD5=[05cd07c9de5c85ff7bb4206533ac5de4]
+entity Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1--><g id="elem_Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1"><rect fill="#438DD5" height="118.9297" rx="2.5" ry="2.5" style="stroke:#3C7FC0;stroke-width:0.5;" width="200" x="586" y="574.4883"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="133" x="619.5" y="599.957">Web Application</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="128" x="622" y="614.9336">[Java and Spring MVC]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="684" y="631"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="176" x="596" y="647.4883">Delivers the static content</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="599" y="663.9766">and the Internet banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="604.5" y="680.4648">single page application.</text></g><!--MD5=[f47c01bd3b864d14036a9ed999413fd1]
+link Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1 to Live.Customerscomputer.WebBrowser.SinglePageApplication_1--><g id="link_Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1_Live.Customerscomputer.WebBrowser.SinglePageApplication_1"><path d="M684.85,574.2083 C683.43,501.4183 681.01,377.3283 679.46,297.8083 " fill="none" id="Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1-to-Live.Customerscomputer.WebBrowser.SinglePageApplication_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="679.3,289.7783,676.4577,297.8357,682.4565,297.7178,679.3,289.7783" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="92" x="684.5" y="358.0898">Delivers to the</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="97" x="682" y="372.2227">customer's web</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="50" x="707.5" y="386.3555">browser</text></g><!--MD5=[52d8e43c3bb47b7a7f776afbbe0c322c]
+link Live.Customerscomputer.WebBrowser.SinglePageApplication_1 to Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1--><g id="link_Live.Customerscomputer.WebBrowser.SinglePageApplication_1_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1"><path d="M606.57,289.7083 C589.49,307.1383 571.9,326.4083 557,345.4883 C501.36,416.7383 449.05,506.8683 416.38,567.0383 " fill="none" id="Live.Customerscomputer.WebBrowser.SinglePageApplication_1-to-Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="412.49,574.2283,418.9378,568.6224,413.6618,565.765,412.49,574.2283" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="558" y="365.0898">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="574.5" y="379.2227">[JSON/HTTPS]</text></g><!--MD5=[e8f8aaaeb0ea448dc5862ad7059d831b]
+link Live.Customersmobiledevice.MobileApp_1 to Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1--><g id="link_Live.Customersmobiledevice.MobileApp_1_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1"><path d="M374.07,289.7383 C373.63,307.8283 373.22,327.4083 373,345.4883 C372.07,421.1983 375.4,508.0783 378.27,566.3383 " fill="none" id="Live.Customersmobiledevice.MobileApp_1-to-Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="378.67,574.3583,381.2668,566.2184,375.2742,566.5181,378.67,574.3583" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="374" y="365.0898">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="80" x="390.5" y="379.2227">[JSON/HTTPS]</text></g><!--MD5=[a302c2c16c5fef5da7e8213e275e7322]
+link Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 to Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1--><g id="link_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1_Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1"><path d="M307.97,693.6883 C291.32,710.1383 275.27,729.1383 264,749.4883 C233.68,804.2583 220.06,874.1483 213.95,927.2083 " fill="none" id="Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1-to-Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="213.07,935.2483,216.9246,927.6232,210.9604,926.9688,213.07,935.2483" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="265" y="762.0898">Reads from and writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="330.5" y="776.2227">to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="319" y="790.3555">[JDBC]</text></g><!--MD5=[70c85a559031dc1463cb9f7bfaae77c0]
+link Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 to Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1--><g id="link_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1_Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1"><path d="M401.73,693.7683 C406.77,711.4683 411.48,731.0883 414,749.4883 C416.66,768.8583 414.78,773.9483 414,793.4883 C406.73,975.3683 386.84,1188.1883 375.4,1300.9383 " fill="none" id="Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1-to-Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="374.56,1309.2183,378.3588,1301.5653,372.39,1300.9544,374.56,1309.2183" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="415" y="998.0898">Reads from and writes</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="13" x="480.5" y="1012.2227">to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="469" y="1026.3555">[JDBC]</text></g><!--MD5=[2f06f43e4868e3e8e7d430e013276d3f]
+link Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 to Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1--><g id="link_Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1_Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1"><path d="M459.07,693.7483 C495.82,723.7783 539.05,762.2183 573,801.4883 C607.01,840.8283 638.78,889.6183 662.62,929.7283 " fill="none" id="Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1-to-Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="666.98,937.1183,665.5035,928.7028,660.3341,931.7487,666.98,937.1183" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="564" y="769.0898">Makes API calls to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="76" x="582.5" y="783.2227">[XML/HTTPS]</text></g><!--MD5=[3d536b2727ca1f870df1dbcb342b812b]
+link Live.BigBankplc.bigbankdb01.OraclePrimary to Live.BigBankplc.bigbankdb02.OracleSecondary--><g id="link_Live.BigBankplc.bigbankdb01.OraclePrimary_Live.BigBankplc.bigbankdb02.OracleSecondary"><path d="M79.6721,1103.9356 C79.7176,1104.1721 79.7634,1104.4087 79.8093,1104.6452 C80.1771,1106.5375 80.5602,1108.4303 80.9592,1110.321 C81.7573,1114.1022 82.6191,1117.8743 83.5497,1121.6144 C85.4109,1129.0947 87.5475,1136.447 90,1143.4883 C109.765,1200.2483 143.7475,1258.5483 173.1638,1303.122 C187.8719,1325.4089 201.4384,1344.2642 211.5155,1357.7797 C214.0347,1361.1586 216.3359,1364.2037 218.3823,1366.8853 C218.8939,1367.5556 219.3895,1368.2033 219.8687,1368.8278 C220.1083,1369.14 220.3438,1369.4465 220.575,1369.7471 C220.6907,1369.8974 220.8052,1370.0462 220.9188,1370.1936 " fill="none" id="Live.BigBankplc.bigbankdb01.OraclePrimary-to-Live.BigBankplc.bigbankdb02.OracleSecondary" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="220.9188,1370.1936,218.4129,1362.0253,213.6599,1365.687,220.9188,1370.1936" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="99" y="1164.0898">Replicates data to</text></g><rect height="81.9531" rx="7.5" ry="7.5" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="105" x="729" y="1546.4883"/><rect height="16.4883" style="stroke:none;stroke-width:1.0;fill:none;" width="93" x="735" y="1554.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="51" x="735" y="1568.0234">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="786" y="1568.0234"> </text><rect fill="#1168BD" height="16.4883" style="stroke:none;stroke-width:1.0;" width="93" x="735" y="1570.9766"/><text fill="#3C7FC0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="739" y="1584.5117">▯</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="747" y="1584.5117"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="755" y="1584.5117">system</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="806" y="1584.5117"> </text><rect fill="#438DD5" height="16.4883" style="stroke:none;stroke-width:1.0;" width="93" x="735" y="1587.4648"/><text fill="#3C7FC0" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="739" y="1601">▯</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="747" y="1601"> </text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="755" y="1601">container</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="824" y="1601"> </text><rect fill="#FFFFFF" height="16.4883" style="stroke:none;stroke-width:1.0;" width="93" x="735" y="1603.9531"/><text fill="#A2A2A2" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="739" y="1617.4883">▯</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="747" y="1617.4883"> </text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="755" y="1617.4883">node</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="794" y="1617.4883"> </text><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="828" y1="1554.4883" y2="1554.4883"/><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="828" y1="1570.9766" y2="1570.9766"/><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="828" y1="1587.4648" y2="1587.4648"/><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="828" y1="1603.9531" y2="1603.9531"/><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="828" y1="1620.4414" y2="1620.4414"/><line style="stroke:#00000000;stroke-width:1.0;" x1="735" x2="735" y1="1554.4883" y2="1620.4414"/><line style="stroke:#00000000;stroke-width:1.0;" x1="828" x2="828" y1="1554.4883" y2="1620.4414"/><!--MD5=[96ed160d671ac7d777be184218a923f3]
+@startuml
+
+
+title Internet Banking System - Deployment - Live
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+Deployment_Node(Live.Customersmobiledevice, "Customer's mobile device", "Apple iOS or Android", $tags="Element+Deployment Node") {
+  Container(Live.Customersmobiledevice.MobileApp_1, "Mobile App", "Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device.", $tags="Element+Container+Mobile App+Container Instance")
+}
+
+Deployment_Node(Live.Customerscomputer, "Customer's computer", "Microsoft Windows or Apple macOS", $tags="Element+Deployment Node") {
+  Deployment_Node(Live.Customerscomputer.WebBrowser, "Web Browser", "Chrome, Firefox, Safari, or Edge", $tags="Element+Deployment Node") {
+    Container(Live.Customerscomputer.WebBrowser.SinglePageApplication_1, "Single-Page Application", "JavaScript and Angular", "Provides all of the Internet banking functionality to customers via their web browser.", $tags="Element+Container+Web Browser+Container Instance")
+  }
+
+}
+
+Deployment_Node(Live.BigBankplc, "Big Bank plc", "Big Bank plc data center", $tags="Element+Deployment Node") {
+  Deployment_Node(Live.BigBankplc.bigbankapi, "bigbank-api*** (x8)", "Ubuntu 16.04 LTS", $tags="Element+Deployment Node+") {
+    Deployment_Node(Live.BigBankplc.bigbankapi.ApacheTomcat, "Apache Tomcat", "Apache Tomcat 8.x", $tags="Element+Deployment Node") {
+      Container(Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, "API Application", "Java and Spring MVC", "Provides Internet banking functionality via a JSON/HTTPS API.", $tags="Element+Container+Container Instance")
+    }
+
+  }
+
+  Deployment_Node(Live.BigBankplc.bigbankdb01, "bigbank-db01", "Ubuntu 16.04 LTS", $tags="Element+Deployment Node") {
+    Deployment_Node(Live.BigBankplc.bigbankdb01.OraclePrimary, "Oracle - Primary", "Oracle 12c", $tags="Element+Deployment Node") {
+      ContainerDb(Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1, "Database", "Oracle Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.", $tags="Element+Container+Database+Container Instance")
+    }
+
+  }
+
+  Deployment_Node(Live.BigBankplc.bigbankdb02, "bigbank-db02", "Ubuntu 16.04 LTS", $tags="Element+Deployment Node+Failover") {
+    Deployment_Node(Live.BigBankplc.bigbankdb02.OracleSecondary, "Oracle - Secondary", "Oracle 12c", $tags="Element+Deployment Node+Failover") {
+      ContainerDb(Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1, "Database", "Oracle Database Schema", "Stores user registration information, hashed authentication credentials, access logs, etc.", $tags="Element+Container+Database+Container Instance")
+    }
+
+  }
+
+  Deployment_Node(Live.BigBankplc.bigbankprod001, "bigbank-prod001", $tags="Element+Deployment Node+") {
+    System(Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.", $tags="Element+Software System+Existing System+Software System Instance")
+  }
+
+  Deployment_Node(Live.BigBankplc.bigbankweb, "bigbank-web*** (x4)", "Ubuntu 16.04 LTS", $tags="Element+Deployment Node+") {
+    Deployment_Node(Live.BigBankplc.bigbankweb.ApacheTomcat, "Apache Tomcat", "Apache Tomcat 8.x", $tags="Element+Deployment Node") {
+      Container(Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1, "Web Application", "Java and Spring MVC", "Delivers the static content and the Internet banking single page application.", $tags="Element+Container+Container Instance")
+    }
+
+  }
+
+}
+
+Rel_D(Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1, Live.Customerscomputer.WebBrowser.SinglePageApplication_1, "Delivers to the customer's web browser", $tags="Relationship")
+Rel_D(Live.Customerscomputer.WebBrowser.SinglePageApplication_1, Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, "Makes API calls to", "JSON/HTTPS", $tags="")
+Rel_D(Live.Customersmobiledevice.MobileApp_1, Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, "Makes API calls to", "JSON/HTTPS", $tags="")
+Rel_D(Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1, "Reads from and writes to", "JDBC", $tags="")
+Rel_D(Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1, "Reads from and writes to", "JDBC", $tags="")
+Rel_D(Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1, Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1, "Makes API calls to", "XML/HTTPS", $tags="")
+Rel_D(Live.BigBankplc.bigbankdb01.OraclePrimary, Live.BigBankplc.bigbankdb02.OracleSecondary, "Replicates data to", $tags="Relationship")
+
+SHOW_LEGEND()
+
+
+@enduml
+
+@startuml
+
+
+title Internet Banking System - Deployment - Live
+
+top to bottom direction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam database<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam queue<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam actor<<node>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+skinparam person<<node>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #FFFFFF
+    BorderColor #A2A2A2
+}
+
+
+skinparam rectangle<<node>> {
+    FontStyle normal
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rectangle "==Customer's mobile device\n<size:12>[Apple iOS or Android]</size>" <<Element>><<Deployment Node>><<node>> as Live.Customersmobiledevice  {
+  rectangle "==Mobile App\n//<size:12>[Xamarin]</size>//\n\nProvides a limited subset of the Internet banking functionality to customers via their mobile device." <<Element>><<Container>><<Mobile App>><<Container Instance>><<container>> as Live.Customersmobiledevice.MobileApp_1 
+}
+
+rectangle "==Customer's computer\n<size:12>[Microsoft Windows or Apple macOS]</size>" <<Element>><<Deployment Node>><<node>> as Live.Customerscomputer  {
+  rectangle "==Web Browser\n<size:12>[Chrome, Firefox, Safari, or Edge]</size>" <<Element>><<Deployment Node>><<node>> as Live.Customerscomputer.WebBrowser  {
+    rectangle "==Single-Page Application\n//<size:12>[JavaScript and Angular]</size>//\n\nProvides all of the Internet banking functionality to customers via their web browser." <<Element>><<Container>><<Web Browser>><<Container Instance>><<container>> as Live.Customerscomputer.WebBrowser.SinglePageApplication_1 
+  }
+
+}
+
+rectangle "==Big Bank plc\n<size:12>[Big Bank plc data center]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc  {
+  rectangle "==bigbank-api*** (x8)\n<size:12>[Ubuntu 16.04 LTS]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankapi  {
+    rectangle "==Apache Tomcat\n<size:12>[Apache Tomcat 8.x]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankapi.ApacheTomcat  {
+      rectangle "==API Application\n//<size:12>[Java and Spring MVC]</size>//\n\nProvides Internet banking functionality via a JSON/HTTPS API." <<Element>><<Container>><<Container Instance>><<container>> as Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 
+    }
+
+  }
+
+  rectangle "==bigbank-db01\n<size:12>[Ubuntu 16.04 LTS]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankdb01  {
+    rectangle "==Oracle - Primary\n<size:12>[Oracle 12c]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankdb01.OraclePrimary  {
+      database "==Database\n//<size:12>[Oracle Database Schema]</size>//\n\nStores user registration information, hashed authentication credentials, access logs, etc." <<Element>><<Container>><<Database>><<Container Instance>><<container>> as Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1 
+    }
+
+  }
+
+  rectangle "==bigbank-db02\n<size:12>[Ubuntu 16.04 LTS]</size>" <<Element>><<Deployment Node>><<Failover>><<node>> as Live.BigBankplc.bigbankdb02  {
+    rectangle "==Oracle - Secondary\n<size:12>[Oracle 12c]</size>" <<Element>><<Deployment Node>><<Failover>><<node>> as Live.BigBankplc.bigbankdb02.OracleSecondary  {
+      database "==Database\n//<size:12>[Oracle Database Schema]</size>//\n\nStores user registration information, hashed authentication credentials, access logs, etc." <<Element>><<Container>><<Database>><<Container Instance>><<container>> as Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1 
+    }
+
+  }
+
+  rectangle "==bigbank-prod001" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankprod001  {
+    rectangle "==Mainframe Banking System\n\n Stores all of the core banking information about customers, accounts, transactions, etc." <<Element>><<Software System>><<Existing System>><<Software System Instance>><<system>> as Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1 
+  }
+
+  rectangle "==bigbank-web*** (x4)\n<size:12>[Ubuntu 16.04 LTS]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankweb  {
+    rectangle "==Apache Tomcat\n<size:12>[Apache Tomcat 8.x]</size>" <<Element>><<Deployment Node>><<node>> as Live.BigBankplc.bigbankweb.ApacheTomcat  {
+      rectangle "==Web Application\n//<size:12>[Java and Spring MVC]</size>//\n\nDelivers the static content and the Internet banking single page application." <<Element>><<Container>><<Container Instance>><<container>> as Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1 
+    }
+
+  }
+
+}
+
+Live.BigBankplc.bigbankweb.ApacheTomcat.WebApplication_1 -DOWN->> Live.Customerscomputer.WebBrowser.SinglePageApplication_1 <<Relationship>> : **Delivers to the customer's web browser**
+Live.Customerscomputer.WebBrowser.SinglePageApplication_1 -DOWN->> Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 : **Makes API calls to**\n//<size:12>[JSON/HTTPS]</size>//
+Live.Customersmobiledevice.MobileApp_1 -DOWN->> Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 : **Makes API calls to**\n//<size:12>[JSON/HTTPS]</size>//
+Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 -DOWN->> Live.BigBankplc.bigbankdb01.OraclePrimary.Database_1 : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 -DOWN->> Live.BigBankplc.bigbankdb02.OracleSecondary.Database_1 : **Reads from and writes to**\n//<size:12>[JDBC]</size>//
+Live.BigBankplc.bigbankapi.ApacheTomcat.APIApplication_1 -DOWN->> Live.BigBankplc.bigbankprod001.MainframeBankingSystem_1 : **Makes API calls to**\n//<size:12>[XML/HTTPS]</size>//
+Live.BigBankplc.bigbankdb01.OraclePrimary -DOWN->> Live.BigBankplc.bigbankdb02.OracleSecondary <<Relationship>> : **Replicates data to**
+
+hide stereotype
+legend right
+<#00000000,#00000000>|<color:#000000>**Legend**</color> |
+|<#1168BD><color:#3C7FC0> <U+25AF></color> <color:#FFFFFF> system </color> |
+|<#438DD5><color:#3C7FC0> <U+25AF></color> <color:#FFFFFF> container </color> |
+|<#FFFFFF><color:#A2A2A2> <U+25AF></color> <color:#000000> node </color> |
+endlegend
+
+
+@enduml
+
+PlantUML version 1.2022.4(Sat Apr 09 15:29:17 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: ES
+--></g></svg>
